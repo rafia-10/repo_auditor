@@ -33,6 +33,7 @@ python -m pip install -r requirements.txt
     
 ### Add secrets
 Create a .env file in the project root:
+
     GROQ_API_KEY=your_groq_key_here
     GITHUB_TOKEN=your_github_token_here
 #### Important: .env is ignored by git to prevent exposing secrets.
